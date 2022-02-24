@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class main {
 	public static void main(String[] args) {
 		
-		//Creación de OBJETOS:  -----
+		//Creaciï¿½n de OBJETOS:  -----
 		Habitacion habitacion = new Habitacion();
 		Persona persona = new Persona();
-		//Creación del escaner: -----
+		//Creaciï¿½n del escaner: -----
 		Scanner tc = new Scanner (System.in);
 		
 		//Iniciar vista - Datos cliente:
@@ -18,8 +18,8 @@ public class main {
 		//-> Solicitar Tipo de documento (Opciones mientras se desarrolla el front con el desplegable de opciones)
 		System.out.println("Ingresa tu tipo de documento: ");
 		persona.setTipoDocumento(tc.nextInt());
-		//-> Solicitar número de documento:
-		System.out.println("Ingresa tu número de documento: ");
+		//-> Solicitar nï¿½mero de documento:
+		System.out.println("Ingresa tu nï¿½mero de documento: ");
 		persona.setNit(tc.next());
 		//-> Solicitar fecha de nacimiento:
 		System.out.println("Ingresa tu fecha de nacimiento: dd/MM/yyyy");
@@ -27,8 +27,8 @@ public class main {
 		//-> Solicitar Email
 		System.out.println("Ingresa tu email: ");
 		persona.setEmail(tc.next());
-		//-> Solicitar número telefónico		
-		System.out.println("Ingresa tu número telefonico: ");
+		//-> Solicitar nï¿½mero telefï¿½nico		
+		System.out.println("Ingresa tu nï¿½mero telefonico: ");
 		persona.setTelefono(tc.next());
 
 
@@ -42,9 +42,9 @@ public class main {
 			n = tc.nextInt();
 			if(habitacion.realizarReserva(n)>0) {
 				if(n == 1)
-				System.out.println("Se realizo la reserva con éxito, habitaciones Estandar I disponibles: "+habitacion.getHabitacionEstandarI());
+				System.out.println("Se realizo la reserva con ï¿½xito, habitaciones Estandar I disponibles: "+habitacion.getHabitacionEstandarI());
 				if(n==2)
-				System.out.println("Se realizo la reserva con éxito, habitaciones Estandar I disponibles: "+habitacion.getHabitacionEstandarII());
+				System.out.println("Se realizo la reserva con ï¿½xito, habitaciones Estandar I disponibles: "+habitacion.getHabitacionEstandarII());
 				
 				System.out.println("Deseas realizar una nueva reserva? 1:Si - 2:No");
 				nuevaReserva = tc.nextInt();
