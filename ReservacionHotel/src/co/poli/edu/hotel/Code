@@ -1,0 +1,11 @@
+		switch (k) {
+		case 1:
+			hab1++;
+			return hab1;
+		case 2:
+			hab2++;
+			return hab2;
+		default:
+			break;
+		}
+		return 0;
