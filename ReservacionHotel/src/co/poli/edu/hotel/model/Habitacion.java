@@ -6,7 +6,6 @@ public class Habitacion extends Hotel {
 	private int habitacionEstandarII = 5;
 	private int suite= 5;
 	private String habitacion;
-	private int prueba;
 	
 	public Habitacion() {
 		
