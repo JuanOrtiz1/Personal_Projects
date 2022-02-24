@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class main {
 	public static void main(String[] args) {
+		//Mensaje de prueba desde Windows :)
+		
 		
 		//Creaci�n de OBJETOS:  -----
 		Habitacion habitacion = new Habitacion();
